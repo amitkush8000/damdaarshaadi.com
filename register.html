@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width,initial-scale=1.0">
+        
+            <title>damdaarshadi</title>
+            <link rel="stylesheet"type="text/css" href="damdaarshadi.css" >
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,300&family=The+Nautigal&display=swap" rel="stylesheet">
+    </head>
+      <body>
+          <section class="sub-header">
+         <nav> 
+           
+    
+        <div class="menu-bar">
+        
+        <ul>
+            <li><a href="damdaarshadi.html">Home</a></li>
+            <li><a href="register.html">Register Urself</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+  
+</section>
+    
+
+
+ 
+  
+    <!--registation-->
+    <section class="register">
+        <div class="container">
+            <div class="card">
+                <div class="inner-box" id="card">
+                    <div class="card-front">
+                        <h2>LOGIN</h2>
+                        <form>
+                            
+                        <input type="email" class="input-box" placeholder="Your Email Id" required>
+                        <input type="password" class="input-box" placeholder="password" required>
+                        <button type="submit" class="submit-btn">Submit</button>
+                        <input type="checkbox">
+                        <span>Remember me</span>
+                        </form>
+                        <button type="button" class="btn" onclick="openRegister()">I'm New Here</button>
+                        <a href=""Forgot password></a>
+                    </div>
+                    <div class="card-back">
+                        <H2>REGISTER</H2>
+                        <form>
+                            <input type="text" class="input-box" placeholder="Your Name"required>
+                            <input type="email" class="input-box" placeholder="Your Email Id" required>
+                            <input type="password" class="input-box" placeholder="password" required>
+                            <button type="submit" class="submit-btn">Submit</button>
+                            <input type="checkbox">
+                            <span>Remember me</span>
+                            </form>
+                            <button type="button" class="btn" onclick="openLogin()">I've an account</button>
+                            <a href=""Forgot password></a>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script>
+            var card = document.getElementById("card");
+            function openRegister(){
+                card.style.transform="rotate(-180deg)";
+
+
+            }
+            function openLogin(){
+                card.style.transform="rotatey(0deg)";
+            }
+
+
+
+        </script>
+    </section>
+    </body>
+</html>
